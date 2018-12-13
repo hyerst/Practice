@@ -60,4 +60,4 @@ blockchain[1]
 new_hash = blockchain[1].compute_hash()
 blockchain[2].previous_hash = new_hash
 
-check_integrity()
+check_integrity() 
